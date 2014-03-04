@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    tools:context=".ListItemDetails" 
+    android:orientation="vertical">
+    
+    <ListView
+        android:id="@+id/friendDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:cacheColorHint="@color/black_overlay" >
+        
+    </ListView>
+    
+</LinearLayout>
